@@ -1,4 +1,5 @@
 import sbt._
+import de.element34.sbteclipsify._
 
 trait Defaults {
   this: DefaultProject =>
@@ -7,7 +8,7 @@ trait Defaults {
   val scalaSwing = "org.scala-lang" % "scala-swing" % buildScalaVersions.value
 }
 
-class Project(info: ProjectInfo) extends DefaultProject(info) {
+class Project(info: ProjectInfo) extends DefaultProject(info) with Eclipsify{
 
   lazy val common = project("common", "common", new DefaultProject(_) with Defaults)
   
