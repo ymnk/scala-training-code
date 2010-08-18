@@ -4,7 +4,8 @@ import de.element34.sbteclipsify._
 trait Defaults {
   this: DefaultProject =>
   
-  lazy val junit = "junit" % "junit" % "4.6"  
+  lazy val junit = "junit" % "junit" % "4.6"
+  val junitInterface = "com.novocode" % "junit-interface" % "0.4" % "test"
   val scalaSwing = "org.scala-lang" % "scala-swing" % buildScalaVersions.value
 }
 
