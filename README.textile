@@ -11,6 +11,9 @@ The code has been divided into the following topics
 * First class functions - various exercises covering use of first class functions
 * Pattern matching - various types of pattern matching
 * oo-traits - exploring some of the topics around object orientation and trait support. Also a few exercises exploring syntax.
+* tmoriss-list - exercises from "http://blog.tmorris.net/revised-scala-exercises/":http://blog.tmorris.net/revised-scala-exercises/
+* tmoriss-option - exercises from "http://blog.tmorris.net/even-further-understanding-scalaoption-part-2/":http://blog.tmorris.net/even-further-understanding-scalaoption-part-2/
+
 
 We believe these tasks are enough for day one of the course. Second day would typically be only the quiz project, which is a larger task. To solve it you must parse some XML, write a console app and a Scala Swing app.
 
@@ -25,5 +28,7 @@ h3. License
 The training course is licensed under "Creative Commons Attribution 3.0 Unported":http://creativecommons.org/licenses/by/3.0/.
 
 All this means, is that you need to credit Fredrik Vraalsen (fredrik@vraalsen.no) and Alf Kristian Støyle (alf.kristian@gmail.com) of scalaBin for the original work. Apart from that you may do whatever you please with the work.
+
+As for code under tmoriss-list and tmoriss-options, all credit should go to "Tony Moriss":http://blog.tmorris.net/
 
 We hope you find this useful.

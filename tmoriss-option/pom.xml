@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>tmoriss.scala-exercises</groupId>
+    <artifactId>scala-exercises</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>tmoriss-option</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>Tony Moriss's Scala Excercises - Option</name>
+  <inceptionYear>2010</inceptionYear>
+  <dependencies>
+  	<dependency>
+  		<groupId>no.scalabin.scala-examples</groupId>
+  		<artifactId>common</artifactId>
+  		<version>${project.version}</version>
+  	</dependency>
+  </dependencies>
+</project>

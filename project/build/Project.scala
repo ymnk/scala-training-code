@@ -19,6 +19,8 @@ class Project(info: ProjectInfo) extends DefaultProject(info) with Eclipsify{
   lazy val ooTraits = projectBasedOnCommon("oo-traits")
   lazy val higherOrderFunctions = projectBasedOnCommon("higher-order-functions")
   lazy val quiz = projectBasedOnCommon("quiz")
+  lazy val tmorissList = projectBasedOnCommon("tmoriss-list")
+  lazy val tmorissOption = projectBasedOnCommon("tmoriss-option")
 
   def projectBasedOnCommon(nameAndFolder: String) = 
     project(nameAndFolder, nameAndFolder, new DefaultProject(_) with Defaults, common)

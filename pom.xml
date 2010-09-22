@@ -152,6 +152,8 @@
         <module>oo-traits</module>
         <module>pattern-matching</module>
         <module>quiz</module>
+        <module>tmoriss-list</module>
+        <module>tmoriss-option</module>
     </modules>
 
     <reporting>
